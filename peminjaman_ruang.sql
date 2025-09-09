@@ -14,7 +14,7 @@ CREATE TABLE users (
 -- Tabel Ruangan
 CREATE TABLE ruangan (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    nama_ruangan peminjaman_ruangusersVARCHAR(100) NOT NULL,
+    nama_ruangan VARCHAR(100) NOT NULL,
     kapasitas INT NOT NULL,
     lokasi VARCHAR(255) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
