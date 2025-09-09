@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.ruangan-card {
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+}
+
+.ruangan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#msg-flash {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    min-width: 300px;
+}
+
+.fasilitas-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.badge {
+    font-size: 0.85em;
+}
+
+.btn {
+    border-radius: 0.25rem;
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem;
+}
+
+.modal-content {
+    border-radius: 0.5rem;
+}
+
+#calendar {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.fc-event {
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+    
+    .btn {
+        margin-bottom: 0.25rem;
+    }
+}
+.schedule-list li {
+    padding: 1rem;
+    border-bottom: 1px solid #f1f5f9;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    background-color: #f8fafc;
+}
+
+.schedule-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.schedule-list .badge {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.5rem;
+}
