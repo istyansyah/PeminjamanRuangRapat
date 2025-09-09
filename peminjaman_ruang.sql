@@ -58,7 +58,7 @@ CREATE TABLE peminjaman_fasilitas (
     FOREIGN KEY (id_peminjaman) REFERENCES peminjaman(id) ON DELETE CASCADE
 );
 
--- Insert data admin default
+-- Insert data admin default password admin : password
 INSERT INTO users (nama, email, password, role) VALUES 
 ('Administrator', 'admin@example.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
 
